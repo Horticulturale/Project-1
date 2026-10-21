@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(126, 179, 190, 0.598);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(47, 25, 119);
+}
+
+p {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(30, 30, 203);
+}
+
+#myHeader {
+    color: rgb(104, 4, 66)
+}
+
+.city {
+    background-color: aqua;
+    color: rgb(94, 41, 132);
+}
+
+.divStyle {
+    font-size: medium color=rgb(59, 187, 157);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeHeader() {
+            document
+        }
+    </script>
+    <script>
+        function changeHeader(){
+            let myheader = document.getElementById("header");
+            myheader.innerHTML = "Hello great students";
+            myheader.style.color = "red"; 
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="title">original title</h1>
+    <h2> Header</h2>
+    <p id="hold">Text</p>
+
+    <script>
+        console.log("Hello JS")
+        document.getElementById("hold").innerHTML = "Not text";
+        let a = 2;
+        let b = 3;
+        console.log(a ** b);
+        console.log("sum is " + a * b)
+        a = a ** b
+        console.log(a - b)
+        /*let animal = prompt("What's your favorite animal?:")
+        console.log("You love " + animal)
+        alert(animal + " lmao")*/
+    </script>
+
+    <div id="output">What is your name?</div>
+    <input type="text" id="inputField" placeholder="Enter new text">
+    <button onclick="updateText()">Update Text</button>
+    <script>
+        function updateText() {
+            const newText = document.getElementById('inputField').value;
+            let result = "<h2>Your name is " + newText + "</h2>";
+            document.getElementById('output').innerHTML = result;
+        }
+    </script>
+    <script>
+
+    </script>
+
+    <script>
+        function updateTitle() {
+            document.getElementById("title").innerHTML = "New Title";
+        }
+
+    </script>
+
+    <!--
+    A javascript function is a block of javascript code that can be executed when called for
+    -->
+
+    <!--
+    script src="website"/""
+    -->
+</body>
+
+</html>

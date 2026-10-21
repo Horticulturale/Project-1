@@ -1,0 +1,74 @@
+body {
+    background-image: url(images_lab4/pineapple.jpg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+h1 {
+    color: midnightblue;
+
+}
+
+h2 {
+    color: rgb(20, 20, 100);
+
+}
+
+p {
+    color: blue;
+    font-size: medium;
+}
+
+table {
+    border: 1px solid midnightblue;
+    color:rgb(20, 20, 100);
+    background-color: lightblue;
+    margin: auto;
+    border-spacing: 5px;
+    font-size: larger;
+}
+
+thead {
+    border: 1px solid midnightblue;
+}
+
+tbody {
+    border: collapse
+}
+
+th {
+    padding: 2px;
+}
+
+td {
+    background-color: aliceblue;
+    border: 1px solid midnightblue;
+    padding: 3px;
+}
+
+ul {
+    color: darkblue;
+    list-style-position: inside;
+    list-style-type: square;
+    padding-right: 40px;
+
+}
+
+.bg {
+    background-color: aliceblue;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin: 50px auto;
+    border-radius: 25px
+}
